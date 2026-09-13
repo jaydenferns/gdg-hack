@@ -1,4 +1,4 @@
-const API = 'http://127.0.0.1:8000';
+const API = 'https://guardian-ai-backend-7gm6.onrender.com/';
 const state = { conversation: [], timeline: [], analysis: { risk_score: 0, risk_level: 'low', language: '—', indicators: [], explanation: 'Messages will be assessed as the conversation develops.', recommended_action: 'Continue monitoring' }, cases: [] };
 const signals = [
   ['Age targeting', /\bhow old\b|\bage\b|kitne saal|उम्र/i, 14, 'The message probes the user’s age.'],
